@@ -12,6 +12,7 @@ public class Math1 {
         System.out.println("sqrt of 49 = "  + Math.sqrt(49));
         System.out.println("abs of -4.7 = "  + Math.abs(-4.7));
         System.out.println("Random number"  + Math.random());
-
+        System.out.println();
+        System.out.println();
     }
 }
