@@ -8,5 +8,8 @@ public class Controller {
 
         Loop loop = new Loop() ;
         loop.demo();
+
+        Array array = new Array() ;
+        array.demo();
     }
 }
