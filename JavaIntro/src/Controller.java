@@ -16,5 +16,9 @@ public class Controller {
         MethodOverloading methodOverloading = new MethodOverloading() ;
         methodOverloading.fun(2 , 3);
         methodOverloading.fun(2 , 3 , 4 );
+
+        System.out.println("\nAbstract Class : ");
+        AbstractClassExampleSecond abstractClassExampleSecond = new AbstractClassExampleSecond() ;
+        abstractClassExampleSecond.demo();
     }
 }
