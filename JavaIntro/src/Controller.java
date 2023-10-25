@@ -32,5 +32,17 @@ public class Controller {
         Pig pig = new Pig() ;
         pig.animalSound();
 
+        System.out.println("\nInnerClass Example : ");
+        OuterClass myOuter = new OuterClass();
+        OuterClass.InnerClass myInner = myOuter.new InnerClass();
+        System.out.println(myInner.myInnerMethod());
+
+
+        System.out.println("\nInterface Example:") ;
+
+        Cat cat = new Cat() ;
+        cat.animalSound();
+        cat.sleep();
+
     }
 }
