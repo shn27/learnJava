@@ -44,5 +44,9 @@ public class Controller {
         cat.animalSound();
         cat.sleep();
 
+        System.out.println("\nUserInput Example:") ;
+        userInputExample userInputExample = new userInputExample() ;
+        userInputExample.input();
+
     }
 }
