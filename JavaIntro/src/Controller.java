@@ -20,5 +20,8 @@ public class Controller {
         System.out.println("\nAbstract Class : ");
         AbstractClassExampleSecond abstractClassExampleSecond = new AbstractClassExampleSecond() ;
         abstractClassExampleSecond.demo();
+
+        Car car = new Car() ;
+        car.fun();
     }
 }
