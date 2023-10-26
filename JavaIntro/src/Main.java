@@ -11,7 +11,9 @@ import java.util.LinkedList;
 public class Main {
     public static void main(String[] args) {
         Controller controller = new Controller() ;
-        controller.controller();
+       // controller.controller();
+        Check check = new Check() ;
+        check.fun();
     }
 
 }
