@@ -23,6 +23,8 @@ public class Switch {
             case 7:
                 System.out.println("Sunday");
                 break;
+            default:
+                System.out.println("Hello World");
         }
         System.out.println( );
         System.out.println( );
