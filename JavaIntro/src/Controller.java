@@ -46,7 +46,16 @@ public class Controller {
 
         System.out.println("\nUserInput Example:") ;
         userInputExample userInputExample = new userInputExample() ;
-        userInputExample.input();
+      //  userInputExample.input();
+
+        System.out.println("\nArrayList Example: ");
+        ArraylistExample arraylistExample = new ArraylistExample() ;
+        arraylistExample.fun();
+
+        System.out.println("\nMultiThread Example: ");
+        multiThread multiThread = new multiThread() ;
+        Thread thread = new Thread(multiThread) ;
+        thread.start();
 
     }
 }
