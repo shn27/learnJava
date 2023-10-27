@@ -1,3 +1,5 @@
+package Inheritance;
+
 public class Box {
     protected int width = 10, height , depth ;
 

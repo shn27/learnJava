@@ -1,7 +1,9 @@
-class OuterClass {
+package Basic;
+
+public class OuterClass {
     int x = 10;
 
-    class InnerClass {
+    public class InnerClass {
         public int myInnerMethod() {
             return x;
         }

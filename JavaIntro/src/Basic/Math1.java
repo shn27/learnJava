@@ -1,3 +1,5 @@
+package Basic;
+
 public class Math1 {
     private int x , y ;
 
@@ -6,7 +8,7 @@ public class Math1 {
         this.y = y;
     }
 
-    void calculate(){
+    public void calculate(){
         System.out.println("Maximum = " + Math.max(this.x , this.y));
         System.out.println("Minimum = " + Math.min(this.x , this.y));
         System.out.println("sqrt of 49 = "  + Math.sqrt(49));

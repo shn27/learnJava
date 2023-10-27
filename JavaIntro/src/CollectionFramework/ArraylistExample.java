@@ -1,9 +1,11 @@
+package CollectionFramework;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 
 public class ArraylistExample {
-    void fun( ){
+    public void fun(){
         ArrayList<String> cars = new ArrayList<String>() ;
         cars.add("Volvo");
         cars.add("BMW");

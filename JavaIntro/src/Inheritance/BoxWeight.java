@@ -1,4 +1,6 @@
-public class BoxWeight extends Box{
+package Inheritance;
+
+public class BoxWeight extends Box {
     private int weight ;
 
     public BoxWeight(int width, int height, int depth, int weight) {

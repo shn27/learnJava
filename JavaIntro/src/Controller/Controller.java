@@ -1,9 +1,25 @@
+package Controller;
+
+import Abstraction.AbstractClassExampleSecond;
+import Basic.Loop;
+import Basic.Math1;
+import Basic.OuterClass;
+import Basic.Switch;
+import Basic.Array;
+import CollectionFramework.ArraylistExample;
+import MethodOverloading.MethodOverloading;
+import Polymorphism.Dog;
+import Polymorphism.Pig;
+import UserInput.userInputExample;
+import MultiThread.multiThread ;
+import Inheritance.Inheritance ;
+
 public class Controller {
-    void controller( ){
+    public void controller(){
         Math1 math = new Math1(10 , 20 ) ;
         math.calculate() ;
 
-        Switch  object = new Switch() ;
+        Switch object = new Switch() ;
         object.demo();
 
         Loop loop = new Loop() ;
@@ -21,9 +37,9 @@ public class Controller {
         AbstractClassExampleSecond abstractClassExampleSecond = new AbstractClassExampleSecond() ;
         abstractClassExampleSecond.demo();
 
-        System.out.println("\nInheritance Class : ");
-//        Car car = new Car() ;
-//        car.fun();
+        System.out.println("\nInheritance.Inheritance Class : ");
+        Inheritance inheritance = new Inheritance() ;
+        inheritance.demo();
 
         System.out.println("\nPolymorphism Example Class : ");
         Dog dog = new Dog() ;
@@ -40,13 +56,13 @@ public class Controller {
 
         System.out.println("\nInterface Example:") ;
 
-        Cat cat = new Cat() ;
-        cat.animalSound();
-        cat.sleep();
+//        Cat cat = new Cat() ;
+//        cat.animalSound();
+//        cat.sleep();
 
         System.out.println("\nUserInput Example:") ;
         userInputExample userInputExample = new userInputExample() ;
-      //  userInputExample.input();
+      //  UserInput.userInputExample.takeInput();
 
         System.out.println("\nArrayList Example: ");
         ArraylistExample arraylistExample = new ArraylistExample() ;

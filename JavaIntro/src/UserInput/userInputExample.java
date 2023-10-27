@@ -1,8 +1,10 @@
+package UserInput;
+
 import java.util.Scanner;
 
 public class userInputExample {
 
-    void input() {
+    public void takeInput() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter name, age and salary:");
 

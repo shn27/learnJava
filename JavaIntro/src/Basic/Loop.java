@@ -1,5 +1,7 @@
+package Basic;
+
 public class Loop {
-    void demo( ){
+    public void demo(){
         String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
         for (String i : cars) {
             System.out.println(i);
