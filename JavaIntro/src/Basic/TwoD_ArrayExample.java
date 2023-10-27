@@ -1,5 +1,7 @@
+package Basic;
+
 public class TwoD_ArrayExample {
-    void fun( ){
+    public void fun( ){
         int[ ][ ] ara = new int[5][5] ;
         int i , j , x = 1 ; i = j = 0 ;
         while(i < 5 ){

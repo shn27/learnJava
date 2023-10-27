@@ -1,3 +1,7 @@
+package Controller;
+
+import Inheritance.Inheritance;
+
 public class Check {
     private int x , y ;
     static int a = 10 ;
@@ -36,27 +40,27 @@ public class Check {
     }
 
 
-    void fun( ){
+    public void fun(){
 //        int x = -1 ;// x >>>= 1 ;
 //      //  System.out.println(x);
 //        x = (x == -1)? -5 : 5 ;
 //        System.out.println(x);
 
-//        Check check = new Check() ;
+//        Controller.Controller.Check check = new Controller.Controller.Check() ;
 //        check.setX(10);
 //        check.setY(20);
 //        check.area( ) ;
-//        Check check1 = new Check() ;
+//        Controller.Controller.Check check1 = new Controller.Controller.Check() ;
 //
 //        System.out.println(check.getX() + " " + check.getY());
 
-       // System.out.println(Check.a);
+       // System.out.println(Controller.Controller.Check.a);
 
-        varArgExample varArgExample = new varArgExample() ;
-        int ara[ ] = { 1 , 2 , 3, 4 , 5 , 6 ,7 , 8, 9 , 10} ;
-        varArgExample.demo( "Hi"  , ara) ;
-        varArgExample.demo(ara) ;
-        varArgExample.demo(true , false , false , true) ;
+//        Basic.varArgExample Basic.varArgExample = new Basic.varArgExample() ;
+//        int ara[ ] = { 1 , 2 , 3, 4 , 5 , 6 ,7 , 8, 9 , 10} ;
+//        Basic.varArgExample.demo( "Hi"  , ara) ;
+//        Basic.varArgExample.demo(ara) ;
+//        Basic.varArgExample.demo(true , false , false , true) ;
 
 
     }

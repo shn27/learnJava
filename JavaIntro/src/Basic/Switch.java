@@ -1,5 +1,7 @@
+package Basic;
+
 public class Switch {
-    void demo(){
+    public void demo(){
         int day = 4;
         switch (day) {
             case 1:

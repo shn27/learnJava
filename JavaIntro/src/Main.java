@@ -3,17 +3,13 @@
 // . You can now see whitespace characters in your code.
 
 
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
-
+import Controller.Controller;
+import Controller.Check ;
 public class Main {
     public static void main(String[] args) {
         Controller controller = new Controller() ;
-       // controller.controller();
-        Check check = new Check() ;
-        check.fun();
+        controller.controller();
+//        Check check = new Check() ;
+//        check.fun();
     }
-
 }
