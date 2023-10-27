@@ -52,11 +52,17 @@ public class Check {
 
        // System.out.println(Check.a);
 
-        varArgExample varArgExample = new varArgExample() ;
-        int ara[ ] = { 1 , 2 , 3, 4 , 5 , 6 ,7 , 8, 9 , 10} ;
-        varArgExample.demo( "Hi"  , ara) ;
-        varArgExample.demo(ara) ;
-        varArgExample.demo(true , false , false , true) ;
+//        varArgExample varArgExample = new varArgExample() ;
+//        int ara[ ] = { 1 , 2 , 3, 4 , 5 , 6 ,7 , 8, 9 , 10} ;
+//        varArgExample.demo( "Hi"  , ara) ;
+//        varArgExample.demo(ara) ;
+//        varArgExample.demo(true , false , false , true) ;
+
+        Inheritance inheritance = new Inheritance() ;
+        inheritance.demo();
+
+
+
 
 
     }

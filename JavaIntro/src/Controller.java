@@ -22,8 +22,8 @@ public class Controller {
         abstractClassExampleSecond.demo();
 
         System.out.println("\nInheritance Class : ");
-        Car car = new Car() ;
-        car.fun();
+//        Car car = new Car() ;
+//        car.fun();
 
         System.out.println("\nPolymorphism Example Class : ");
         Dog dog = new Dog() ;
