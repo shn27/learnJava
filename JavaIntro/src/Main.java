@@ -5,11 +5,16 @@
 
 import Controller.Controller;
 import Controller.Check ;
+import TryCatch.TryCatchExample;
+
 public class Main {
     public static void main(String[] args) {
         Controller controller = new Controller() ;
-        controller.controller();
+        //controller.controller();
 //        Check check = new Check() ;
 //        check.fun();
+        TryCatchExample tryCatchExample = new TryCatchExample() ;
+        tryCatchExample.demo( ) ;
+
     }
 }
