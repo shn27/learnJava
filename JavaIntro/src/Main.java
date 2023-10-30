@@ -11,10 +11,12 @@ public class Main {
     public static void main(String[] args) {
         Controller controller = new Controller() ;
         //controller.controller();
-//        Check check = new Check() ;
-//        check.fun();
-        TryCatchExample tryCatchExample = new TryCatchExample() ;
-        tryCatchExample.demo( ) ;
+        Check check = new Check() ;
+        check.fun();
+//        TryCatchExample tryCatchExample = new TryCatchExample() ;
+//        tryCatchExample.demo( ) ;
+
+
 
     }
 }

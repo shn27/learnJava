@@ -21,6 +21,5 @@ public class TryCatchExample {
         catch (Exception e){
             System.out.println("boss chap " + e);
         }
-
     }
 }
