@@ -1,6 +1,7 @@
 package Controller;
 
 import Enumeration.EnumerationExample;
+import FileHandling.FileExample;
 import Inheritance.Inheritance;
 
 public class Check {
@@ -63,8 +64,8 @@ public class Check {
 //        Basic.varArgExample.demo(ara) ;
 //        Basic.varArgExample.demo(true , false , false , true) ;
 
-        EnumerationExample enumerationExample = new EnumerationExample() ;
-        enumerationExample.demo();
+        FileExample fileExample = new FileExample() ;
+        fileExample.demo();
 
     }
 }
