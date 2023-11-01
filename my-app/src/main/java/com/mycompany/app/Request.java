@@ -12,5 +12,8 @@ public class Request {
     void makeRequest() {
         obj.draw();
     }
+    public drawShape getRequest( ){
+        return this.obj ;
+    }
 }
 
