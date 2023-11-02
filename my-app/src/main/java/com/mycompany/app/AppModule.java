@@ -11,7 +11,6 @@ public class AppModule extends AbstractModule {
     protected void configure() {
        bind(drawShape.class).to(drawCircle.class).in(Scopes.SINGLETON)  ;
        bind(String.class ).toInstance("Green");
-     //  bind(Integer.class).toInstance(15);
         bind(Integer.class).annotatedWith(Important.class).toInstance(20);
         bind(Request.class).in(Scopes.SINGLETON) ;
     }
