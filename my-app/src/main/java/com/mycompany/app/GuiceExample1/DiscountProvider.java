@@ -8,6 +8,7 @@ public class DiscountProvider implements Provider<Discount> {
     @Override
     public Discount get() {
         int hour = LocalTime.now().getHour();
+        System.out.println("Bro get has been called");
 
         if (isEarlyMorning(hour)) {
             return new DiscountType1();

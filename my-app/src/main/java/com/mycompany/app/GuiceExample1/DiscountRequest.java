@@ -10,13 +10,16 @@ public class DiscountRequest {
     public DiscountRequest(Discount discount) {
         this.discount = discount;
     }
-
-    //  private final Provider<Discount> discountProvider;
-
-//    public DiscountRequest(Provider<Discount> discountProvider) {
-//        this.discountProvider = discountProvider;
-//    }
     public void makeRequest() {
         discount.giveDiscount();
     }
+
+//      private final Provider<Discount> discountProvider;
+//    @Inject
+//    public DiscountRequest(Provider<Discount> discountProvider) {
+//        this.discountProvider = discountProvider;
+//    }
+//    public void makeRequest() {
+//        discountProvider.get().giveDiscount();
+//    }
 }
