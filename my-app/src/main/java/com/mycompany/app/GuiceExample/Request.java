@@ -1,5 +1,6 @@
-package com.mycompany.app;
+package com.mycompany.app.GuiceExample;
 
+import com.mycompany.app.GuiceExample.drawShape;
 import jakarta.inject.Inject;
 
 public class Request {
@@ -11,6 +12,9 @@ public class Request {
     }
     void makeRequest() {
         obj.draw();
+    }
+    public drawShape getRequest( ){
+        return this.obj ;
     }
 }
 
