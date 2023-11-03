@@ -4,12 +4,13 @@ import jakarta.inject.Inject;
 import jakarta.inject.Provider;
 
 public class DiscountRequest {
-    private final Discount discount ;
+    private final Discount discount;
 
     @Inject
     public DiscountRequest(Discount discount) {
         this.discount = discount;
     }
+
     public void makeRequest() {
         discount.giveDiscount();
     }

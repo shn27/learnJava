@@ -1,9 +1,7 @@
-package com.mycompany.app;
+package com.mycompany.app.GuiceExample;
 
 import com.google.inject.AbstractModule;
-import com.google.inject.Scope;
 import com.google.inject.Scopes;
-import com.google.inject.name.Names;
 import com.mycompany.app.Annotation.Important;
 
 public class AppModule extends AbstractModule {

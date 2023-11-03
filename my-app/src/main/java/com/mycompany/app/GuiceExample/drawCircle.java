@@ -1,6 +1,7 @@
-package com.mycompany.app;
+package com.mycompany.app.GuiceExample;
 
 import com.mycompany.app.Annotation.Important;
+import com.mycompany.app.GuiceExample.drawShape;
 import jakarta.inject.Inject;
 
 public class drawCircle implements drawShape {

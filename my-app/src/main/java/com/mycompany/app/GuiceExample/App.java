@@ -1,9 +1,7 @@
-package com.mycompany.app;
+package com.mycompany.app.GuiceExample;
 //import com.google.* ;
-import com.google.common.collect.*;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
-import com.mycompany.app.Annotation.Important;
 
 /**
  * Hello world!
